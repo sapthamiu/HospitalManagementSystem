@@ -1,5 +1,5 @@
 # Hospital Management System (Java, OOP)
-[Watch Demo](HospitalManagementSystemDemo.mp4)
+[Watch Demo](https://drive.google.com/file/d/13v8nHgqWPOXtcA9e1EZArxQ6C2-tYGI-/view?usp=sharing)
 
 A console-based hospital simulation tool built with Java and Object-Oriented Programming. Supports both doctor and patient functionalities—such as managing appointments, admissions, and bed allocations—with a modular, department-based structure.
 
