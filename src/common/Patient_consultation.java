@@ -225,7 +225,7 @@ public class Patient_consultation
 		System.out.println("Success! Appointment booked");
 		System.out.println("Doctor");
 		System.out.println(d);
-        System.out.println("Insurance: " + insvalue);
+        System.out.println("Insurance: " + insvalue*100 + "%");
 		System.out.println("Appointment date:" + doc);
 	//	System.out.println("Appointment time:" + t);
 		System.out.println("Appointment fee:" + amt);

@@ -93,7 +93,7 @@ public class Doctor{
     }
     //display
     public String toString(){
-        return "\nDoctor: " + dname + "\nDept: " + dept + "\n";
+        return "\nID: " + id + "\nDoctor: " + dname + "\nDept: " + dept + "\n";
     }
     public boolean equals(Object s)
     {

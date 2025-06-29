@@ -7,7 +7,7 @@ import src.alldepartments.*;
 import src.common.*;
 import src.common.exceptions.*;
 
-public class HospitalManagementSystem {
+public class Main {
     private static Hospital hospital;
     private static Scanner sc = new Scanner(System.in);
     static Cardiology d1 = new Cardiology();
@@ -223,7 +223,7 @@ public class HospitalManagementSystem {
                             node = node.next;
                         }
                         if(!found)
-                            System.out.println("Doctor not found or is already unaivailable.");
+                            System.out.println("Doctor not found or is already unavailable.");
                     }catch(DateTimeParseException e){
                         System.out.println("Invalid date format: " + e.getMessage());
                     }
